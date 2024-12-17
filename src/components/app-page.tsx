@@ -10,6 +10,8 @@ import bscafrica from "../images/bscafrica.png";
 import calculator from "../images/calculator.png";
 import givingly from "../images/givingly.png";
 import movieproject from "../images/movieproject.png";
+import budgettracker from "../images/budget_tracker.png";
+import learning_dashboard from "../images/learning_dashboard.png";
 import Link from "next/link";
 
 export function AppPage() {
@@ -185,6 +187,18 @@ function SkillsSection() {
 
 function ProjectsSection() {
   const projects = [
+    {
+      title: "Budget Tracker",
+      description: "Next.js, TypeScript, Redux, Tailwind CSS",
+      image: budgettracker,
+      link: "https://budgettracker-sand.vercel.app/",
+    },
+    {
+      title: "Learning Dashboard",
+      descriotion: "Next.js, Rest Api, Tailwind CSS",
+      image: learning_dashboard,
+      link: "https://dashboard-opal-ten.vercel.app/",
+    },
     {
       title: "Givingly",
       description: "Next.js, Firebase, Tailwind CSS",
