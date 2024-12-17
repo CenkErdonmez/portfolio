@@ -195,7 +195,7 @@ function ProjectsSection() {
     },
     {
       title: "Learning Dashboard",
-      descriotion: "Next.js, Rest Api, Tailwind CSS",
+      description: "Next.js, Rest Api, Tailwind CSS",
       image: learning_dashboard,
       link: "https://dashboard-opal-ten.vercel.app/",
     },
